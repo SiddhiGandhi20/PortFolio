@@ -191,14 +191,14 @@ html, body {
     max-width: 600px;
   }
   
-  .hero-title {
-    font-size: 2.4rem;
-    font-weight: bold;
-    color: #8b5cf6;
-    margin-bottom: 1rem;
-    font-family: 'Playfair Display	', serif;
+.hero-title {
+  font-size: clamp(1.5rem, 6vw, 2.4rem); /* Responsive font size */
+  font-weight: bold;
+  color: #8b5cf6;
+  margin-bottom: 1rem;
+  font-family: 'Playfair Display', serif;
+}
 
-  }
   
   .hero-title .highlight {
     color: #8b5cf6;
