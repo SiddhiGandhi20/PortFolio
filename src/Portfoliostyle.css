@@ -192,7 +192,25 @@ html, body {
   }
   
 
-  
+  .hero-title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #8b5cf6;
+  margin-bottom: 1rem;
+  font-family: 'Playfair Display', serif;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.6rem;
+  }
+}
   .hero-title .highlight {
     color: #8b5cf6;
     background: linear-gradient(to right, #8b5cf6, #a855f7);
